@@ -66,4 +66,5 @@ Once the microservice completed the task, the main program can retrieve the requ
     // Close file
     responseFile.close();
 
-
+# UML Diagram
+![Sequence Diagram](https://github.com/user-attachments/assets/50873903-f8da-41a0-b468-b655357ae7c4)
