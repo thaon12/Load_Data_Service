@@ -48,7 +48,6 @@ void processRequest() {
                 userFile.close();
             }
             else {
-                responseData = "Warning: User data missing. Returning default values.";
                 ifstream defaultFile(DEFAULT_DATA_FILE);
                 if (defaultFile) {
                     getline(defaultFile, responseData);
